@@ -1,0 +1,23 @@
+This program is about Spatial-Temporal Dependency Adjacency Matrix Generation. Spatial-Temporal Hybrid Adjacency Matrix is constructed in QuoGCN component.
+
+If you want to run the code:
+
+./run.sh
+
+1. p1_distance_genrator.py is used to generate the cos distance between nodes in the graph.
+
+2. p2_generate_negative_sample.py contains the negative sampling method of node embedding model.
+
+3. p3_model_train.py is for the node embedding model training.
+
+4. p4_adjmatrix_generator.py is for adjacency matrix generation of STDAM.
+
+5. run.sh is a bash script to run an entire process.
+
+6. dataset and model_save is for store intermediate data.
+
+7. data contains PEMS08 dataset. If you want more datasets, please visit https://github.com/Davidham3/STSGCN to fetch another three datasets.
+
+8. requirements.txt is the python library you need to install.
+
+

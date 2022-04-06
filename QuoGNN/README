@@ -1,0 +1,20 @@
+Program Introduction
+
+This component is about Quotient Graph Neural Network.
+
+If you want to run code to train and test QuoGNN:
+
+python main.py --config config/PEMS08/i01.json
+
+
+In this program:
+
+1. main.py is the main program.
+
+2. utils.py contains the model construction and data preprocess components.
+
+3. models.quognn.py is the model file.
+
+4. data directory. We only offer PEMS08 for example. If you want to get more datasets, please visit https://github.com/Davidham3/STSGCN to fetch another three datasets.
+
+5. requirements.txt is the python library you need to install.

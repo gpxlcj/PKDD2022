@@ -1,0 +1,7 @@
+pytorch==1.7.1
+sklearn
+pandas
+numpy
+tqdm
+scipy
+

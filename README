@@ -1,0 +1,3 @@
+The code contains two parts: QuoGNN and STDAM_generation.
+
+Please check the README files in the directories. They will help you to run the model on PEMS08 dataset.
